@@ -1,0 +1,504 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: #ffff;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+  color: black;
+}
+.bg-image {
+  background-image: url("./assests/banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90.5vh;
+  width: 100%;
+}
+.bg-contant {
+  height: 100%;
+  color: #ffff;
+  line-height: 64px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  background-color: transparent;
+  color: white;
+  border: 3px solid #4ec6ab;
+  padding: 15px 25px;
+  font-size: larger;
+  margin: 20px 0px 0px 0px;
+}
+.btn:hover {
+  background-color: #ffff;
+  color: black;
+}
+.ico {
+  font-size: 120px;
+  text-align: center;
+}
+.content-center {
+  text-align: center;
+  width: 600px;
+}
+.img-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  width: 100%;
+  margin: 70px 0px 0px 0px;
+}
+.bg-color {
+  background-color: #e8efff;
+  width: 100%;
+  margin: 50px 0px 0px 0px;
+  padding: 0px 0px 40px 0px;
+}
+.line {
+  background-color: #4ec6ab;
+  border: 1px solid #4ec6ab;
+  height: 10px;
+  width: 150px;
+  margin-top: 20px;
+}
+.header-center {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+h1 {
+  font-size: xx-large;
+}
+.img-desp {
+  width: 300px;
+  height: 40px;
+  background-color: black;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-flex {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 0px 0px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.shirts img {
+  width: 300px;
+}
+.product-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 65px 0px 0px 0px;
+}
+.product-btn button {
+  padding: 5px 10px;
+}
+.access_flex_1 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0px 0px 0px;
+}
+.access_flex_1 img {
+  border: 2px solid black;
+}
+.bg-steps {
+  background-image: url("./assests/escalator.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  margin: 70px 0px 60px 0px;
+}
+.best-seller {
+  background-color: #e8efff;
+  width: 100%;
+  padding: 0px 0px 40px 0px;
+}
+.h3 {
+  color: green;
+  margin: 40px 0px 0px 0px;
+}
+.header-center img {
+  width: 218px;
+  margin: 50px 0px 0px 0px;
+}
+.header-center p {
+  text-align: center;
+  line-height: 37px;
+  font-size: x-large;
+}
+.header-center span,
+h3 {
+  font-size: x-large;
+}
+.img-container {
+  display: flex;
+  gap: 38px;
+}
+.img-container img {
+  height: 100px;
+  width: 118px;
+}
+.bg-green {
+  background-image: url("./assests/green_image.avif");
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 60px 0px 30px 0px;
+}
+.white-line {
+  background-color: white;
+  border: 1px solid white;
+  height: 10px;
+  width: 150px;
+  margin-top: 20px;
+}
+.bg-green .bg-contant h1 {
+  color: black;
+}
+.bg-green .bg-contant p {
+  font-size: medium;
+}
+.input {
+  background-color: #ffff;
+  height: 69px;
+  width: 608px;
+}
+.parent {
+  display: flex;
+  border: 1px solid black;
+}
+.parent .input {
+  border: none;
+}
+.parent button {
+  width: 120px;
+}
+
+.logo-flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 65px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+
+.logo-flex img {
+  width: 300px;
+  border: 2px solid green;
+}
+.arrow {
+  font-size: 25px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 65px 0px 0px 0px;
+}
+.row .div {
+  width: 352px;
+}
+.row div img {
+  width: 350px;
+  height: 300px;
+}
+.row-line {
+  background-color: #4ec6ab;
+  border: 1px solid #4ec6ab;
+  height: 5px;
+  width: 180px;
+  margin-top: 20px;
+}
+.div p {
+  margin: 20px 0px 0px 0px;
+}
+.bttn {
+  padding: 20px 30px;
+  background-color: #4ec6ab;
+  color: #ffff;
+  border: none;
+  margin: 20px 0px 0px 0px;
+}
+.bg-last-sce {
+  width: 100%;
+  background-color: #33373a;
+  margin: 70px 0px 0px 0px;
+}
+.white {
+  color: #ffff;
+}
+.contact-flex {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffff;
+  width: 100%;
+  margin: 60px 0px 0px 0px;
+}
+.contact-flex h1 {
+  font-size: 100px;
+}
+.contact-flex .sub {
+  width: 50%;
+}
+.contact-flex p {
+  margin: 20px 0px 0px 0px;
+}
+.icon i {
+  border: 1px solid white;
+  padding: 10px;
+}
+.icon i:hover {
+  background-color: #4ec6ab;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+.form-flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.form-flex input {
+  padding: 10px;
+  /* width: 24%; */
+}
+.form-flex textarea {
+  margin-top: 6px;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.form-flex button {
+  background-color: #4ec6ab;
+  border: none;
+  padding: 20px 30px;
+  color: white;
+}
+textarea {
+  resize: vertical;
+  width: 57%;
+}
+textarea::placeholder {
+  text-indent: 20px;
+  padding-top: 20px;
+}
+@media screen and (max-width: 500px) {
+  .nav {
+    display: none;
+  }
+  .bg-contant {
+    text-align: center;
+  }
+  .content-center {
+    width: 100%;
+  }
+  .img-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .product-btn {
+    flex-direction: column;
+  }
+  .product-btn button {
+    width: 100%;
+  }
+  .access_flex_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .access_flex_1 img {
+    width: 100%;
+  }
+  .shirts img,
+  .img-desp {
+    width: 100%;
+  }
+  .shirts {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+    height: 55px;
+  }
+  .parent .input {
+    width: 80%;
+    margin: 3px;
+  }
+  .parent button {
+    width: 20%;
+    margin: 3px;
+  }
+  .logo-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo-flex img {
+    width: 100%;
+    height: 150px;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row img {
+    width: 100%;
+  }
+  .img-container {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .img-container img {
+    height: 100px;
+    width: 100px;
+  }
+  .row .div img {
+    width: 100%;
+  }
+  .row .div {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .contact-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg-last-sce {
+    width: 100%;
+  }
+
+  .contact-flex h1 {
+    font-size: 30px;
+  }
+  .contact-flex .sub {
+    width: 100%;
+  }
+  .form-flex input {
+    padding: 2px;
+  }
+  .form-flex input {
+    width: 100%;
+    padding: 10px;
+  }
+  textarea {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 1024px) {
+  .nav {
+    display: none;
+  }
+  .bg-contant {
+    text-align: center;
+  }
+  .content-center {
+    width: 250px;
+  }
+  .img-flex {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .parent {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .parent .input {
+    width: 80%;
+  }
+  .parent button {
+    width: 20%;
+    margin: 3px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .access_flex_1 img {
+    width: 222px;
+    height: 150px;
+  }
+  .shirts img,
+  .img-desp {
+    width: 250px;
+  }
+  .shirts {
+    width: 250px;
+  }
+  .input {
+    width: 500px;
+  }
+  .img-container img {
+    width: 50%;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .row img {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .contact-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-flex .sub {
+    width: 100%;
+  }
+  .form-flex input {
+    padding: 2px;
+  }
+  .form-flex input {
+    /* width: 100%; */
+    padding: 10px;
+  }
+  textarea {
+    width: 100%;
+  }
+}
